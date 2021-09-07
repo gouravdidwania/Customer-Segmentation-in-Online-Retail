@@ -1,17 +1,19 @@
 <!-- PROJECT LOGO -->
 <br />
-	<p align="center">
-  		<a 
-    			![christmas-holidays-sale-online-store-fast-delivery-copy-space-gift-box-shopping-cart-banner-205238583](https://user-images.githubusercontent.com/86877457/132400172-6e86462d-c5d1-4e18-ab84-c8327cbeadec.jpg)
-  		</a>
+<p align="center">
+  <a 
+    <img src="![christmas-holidays-sale-online-store-fast-delivery-copy-space-gift-box-shopping-cart-banner-205238583](https://user-images.githubusercontent.com/86877457/132400847-ea912940-481d-4700-861b-22aee70e5314.jpg)
+">
+  </a>
 
-  		<h1 align="center">Customer Segmentation in Online Retail</h1>
+  <h3 align="center">Customer Segmentation in Online Retail</h3>
 
-	<p align="center">
-    	In this project, I'll try performing Customer Segmentation in Online Retail dataset using python, focussing on cohort analysis, understanding market base, sales and customer purchase patterns using RFM analysis and clustering.
-<br />
+  <p align="center">
+    In this project, I'll try performing Customer Segmentation in Online Retail dataset using python, focussing on cohort analysis, understanding market base, sales and customer purchase patterns using RFM analysis and clustering.
+    <br />
+  </p>
 </p>
-</p>
+
 
 
 

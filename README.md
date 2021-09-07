@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
+![image](https://user-images.githubusercontent.com/86877457/132400947-436793f0-dc39-4564-8758-ec70e54de0a0.jpg)
 <br />
 <p align="center">
-![image](https://user-images.githubusercontent.com/86877457/132400947-436793f0-dc39-4564-8758-ec70e54de0a0.jpg)
 
   <h3 align="center">Customer Segmentation in Online Retail</h3>
 

@@ -1,10 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a 
-    <img src="![christmas-holidays-sale-online-store-fast-delivery-copy-space-gift-box-shopping-cart-banner-205238583](https://user-images.githubusercontent.com/86877457/132400847-ea912940-481d-4700-861b-22aee70e5314.jpg)
-">
-  </a>
+  ![christmas-holidays-sale-online-store-fast-delivery-copy-space-gift-box-shopping-cart-banner-205238583](https://user-images.githubusercontent.com/86877457/132400947-436793f0-dc39-4564-8758-ec70e54de0a0.jpg)
 
   <h3 align="center">Customer Segmentation in Online Retail</h3>
 

@@ -2,10 +2,11 @@
 <br />
 <p align="center">
   <a 
-    <img src="https://png.pngtree.com/element_our/sm/20180415/sm_5ad31a9302828.jpg" alt="Logo" width="80" height="80">
+    ![christmas-holidays-sale-online-store-fast-delivery-copy-space-gift-box-shopping-cart-banner-205238583](https://user-images.githubusercontent.com/86877457/132400172-6e86462d-c5d1-4e18-ab84-c8327cbeadec.jpg)
   </a>
 
-  <h3 align="center">Customer Segmentation in Online Retail</h3>
+  <h2 align="center">Customer Segmentation in Online Retail</h2>
+
 
   <p align="center">
     In this project, I'll try performing Customer Segmentation in Online Retail dataset using python, focussing on cohort analysis, understanding market base, sales and customer purchase patterns using RFM analysis and clustering.
@@ -53,11 +54,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Customer segmentation has a lot of potential benefits. It helps a company to develop an effective strategy for targeting its customers. This has a direct impact on the entire product development cycle, the budget management practices, and the plan for delivering targeted promotional content to customers. Customer segmentation can also help a company to understand how its customers are alike, what is important to them, and what is not. Often such information can be used to develop personalized relevant content for different customer bases. 
 
 **As per the Pareto Principle, 80% of outcomes result from 20% of all the causes of any given event.**
+
 In business terms, we can say that 20% of customers contribute 80% share of the total revenue of a company. That’s why finding this set of people is important. I will explain the importance of customer segmentation in a detailed manner later in this article itself.
 
 

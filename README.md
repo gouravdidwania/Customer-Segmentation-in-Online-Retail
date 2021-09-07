@@ -317,7 +317,7 @@ This can be approched by finding the relative importance of each attributes for 
 <!-- FINAL THOUGHTS -->
 ## Final Thoughts
 
-From the above analysis, we can see that there should be 4 clusters in our data. To understand what these 4 clusters mean in a business scenario, we should look back the table comparing the clustering performance of RFM Segmentation Model and 4 clusters for the mean values of recency, frequency, and monetary metric. On this basis, let us label the clusters as **‘New customers’, ‘Lost customers’, ‘Best customers’, and ‘At risk customers’.**
+From the above analysis, we can see that there should be 4 clusters in our data. To understand what these 4 clusters mean in a business scenario, we should look back the table comparing the clustering performance of RFM Segmentation Model and 4 clusters for the mean values of recency, frequency, and monetary metric. On this basis, let us label the clusters as **‘New customers’, ‘Lost customers’, ‘Loyal customers’, and ‘At Risk customers’.**
 
 **MY INTERPRETATION**
 

@@ -25,7 +25,7 @@
       <a href="#problem-statement">Problem Statement</a>
       <ul>
         <li><a href="#understanding-customer-segmentation">Understanding Customer Segmentation</a></li>
-        <li><a href="#how-to-segment-your-customers?">How to Segment your Customers?</a></li>
+        <li><a href="#ways-to-segment-your-customers">Ways to Segment your Customers</a></li>
       </ul>
     </li>
     <li>
@@ -43,7 +43,7 @@
 	  <li><a href="#clustering">Clustering</a></li>
         </ul>
     </li>
-    <li><a href="#final_thoughts">Final Thoughts</a></li>
+    <li><a href="#final-thoughts">Final Thoughts</a></li>
   </ol>
 </details>
 
@@ -89,7 +89,7 @@ The type of segmentation criterion followed would create a big difference in the
 4. **Psychographic:** Beliefs, personality, lifestyle, personal interest, motivation, priorities, etc.
 5. **Geographical:** Country, zip code, climatic conditions, urban/rural areal differentiation, accessibility to markets, etc.
 
-### How to Segment your Customers?
+### Ways to Segment your Customers?
 
 To start with customer segmentation, a company needs to have a clear vision and a goal in mind. 
 
@@ -221,7 +221,7 @@ Now I calculated the Retention Rate. It is defined as the percentage of active c
 
 From the above retention rate heatmap, we can see that there is an average retention of ~35% for the CohortMonth 2010–12–01, with the highest retention rate occurring after 11 months (49.3%). For all the other CohortMonths, the average retention rates are around 18–25%
 
-### RFM Segmenatation
+### RFM Segmentation
 RFM stands for **Recency, Frequency, and Monetary.**
 
 RFM analysis is a commonly used technique to generate and assign a score to each customer based on how recent their last transaction was (Recency), how many transactions they have made in the last year (Frequency), and what the monetary value of their transaction was (Monetary).

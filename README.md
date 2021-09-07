@@ -151,6 +151,7 @@ Data was processed and cleaned. Here the duplicates were removed and the missing
 Since the data, taken from the UCI Machine Learning repository describes the data to based on transactions for a UK-based and registered non-store online retail, let us check the percentage of orders from each country in the data.
 
 ![image](https://user-images.githubusercontent.com/86877457/132364248-5074e4c0-b17d-4b0e-ad34-83de485f3e93.png)
+
 The above graph shows the percentage of orders from the top 10 countries, sorted by the number of orders. This shows that more than 90% of orders are coming from United Kingdom and no other country even makes up 3% of the orders in the data.
 
 **Customers and Products**
@@ -171,6 +172,7 @@ As we can see from the above figure, these cases are the ones where CustomerID v
 **Stock Code**
 
 several types of peculiar transactions, connected i.e., port charges, bank fee, discount, free gifts, Carry bags, Samples, Amazon Fee,transaction fees which needed to be analysed.
+
 ![image](https://user-images.githubusercontent.com/86877457/132366457-8f51877b-885b-47c5-a684-de5e3fd30a3a.png)
 
 **Net Amount/Invoice**
@@ -217,6 +219,7 @@ After obtaining the above information, I obtained the cohort analysis matrix by 
 Consider CohortMonth 2010–12–01: For CohortIndex 0, this tells us that 948 unique customers made transactions during CohortMonth 2010–12–01. For CohortIndex 1, this tells that there are 341 customers out of 948 who made their first transaction during CohortMonth 2010–12–01 and they also made transactions during the next month. That is, they remained active.
 
 Now I calculated the Retention Rate. It is defined as the percentage of active customers out of total customers.
+
 ![image](https://user-images.githubusercontent.com/86877457/132369804-450dd1c8-c907-45e4-b8c4-ef3646ca1efc.png)
 
 From the above retention rate heatmap, we can see that there is an average retention of ~35% for the CohortMonth 2010–12–01, with the highest retention rate occurring after 11 months (49.3%). For all the other CohortMonths, the average retention rates are around 18–25%
@@ -243,9 +246,11 @@ Then, I created 4 quartiles segment on this data with split at [25%ile,50%ile,75
 - For the frequency and monetary metric, the highest value, 4, will be assigned to the customers with the Top 25% frequency and monetary values, respectively.
 
 After dividing the metrics into quartiles, The RFM_Score is calculated by summing up the RFM quartile metrics and RFM_Segment is calulated by collating them as a string of characters. 
+
 ![image](https://user-images.githubusercontent.com/86877457/132371242-2643a720-7499-4923-ad50-75385903f6e8.png)
 
 Now the data can be grouped on the basis of RFM Score and mean attributes value can be compared for varoius RFM scores.
+
 ![image](https://user-images.githubusercontent.com/86877457/132385657-6d8acfb4-46b8-4b0f-855b-9a5c3608aead.png)
 
 **MY ANALYSIS FROM RFM SEGMENTATION**
@@ -283,6 +288,7 @@ As you can see from the above plots, all the variables do not have a symmetrical
 The log transformation cannot be used for negative values. However, this data do not have any negative values since it is a customer transactions dataset.
 
 After performming log transform and standardising the date, **Skewness has been removed**
+
 ![image](https://user-images.githubusercontent.com/86877457/132389568-138f5fbf-54f0-4bf5-ac73-4fa88c395ff8.png)
 
 
@@ -297,6 +303,7 @@ From the above plot, the optimal number can be taken as 3 or 4 or 5.
 
 So, after grouping the data in their clusters, for each value among 3, 4 and 5
 For interpreting this segment, I drew Snake Plot fro all three values.
+
 ![image](https://user-images.githubusercontent.com/86877457/132392045-e1613880-251c-4532-b431-062e36571fad.png)
 
 From the above snake plot, we can see the distribution of recency, frequency, and monetary metric values across the clusters. The clusters seem to be separate from each other, which indicates a good heterogeneous mix of clusters. Best happens for k=3. But k=4 happens to be more practical.
@@ -304,6 +311,7 @@ From the above snake plot, we can see the distribution of recency, frequency, an
 As the final step in this analysis,I extracted this information now for each customer and grouped them in the clusters formed that can be used to map the customer with their relative importance by the company:
 
 This can be approched by finding the relative importance of each attributes for each clusters so that the company can focus more on the attribute of max importance for a particular cluster of customers. Ths was calculated by dividing the Mean value of attributes of each cluster and dividing it by the overall population average. A heatmap was plotted for the result:
+
 ![image](https://user-images.githubusercontent.com/86877457/132393027-28b9f33b-8836-4d2c-ae75-74e7174a2531.png)
 
 <!-- FINAL THOUGHTS -->
@@ -312,6 +320,7 @@ This can be approched by finding the relative importance of each attributes for 
 From the above analysis, we can see that there should be 4 clusters in our data. To understand what these 4 clusters mean in a business scenario, we should look back the table comparing the clustering performance of RFM Segmentation Model and 4 clusters for the mean values of recency, frequency, and monetary metric. On this basis, let us label the clusters as **‘New customers’, ‘Lost customers’, ‘Best customers’, and ‘At risk customers’.**
 
 **MY INTERPRETATION**
+
 ![image](https://user-images.githubusercontent.com/86877457/132398189-8d90880b-6966-480b-944d-a9ffba803595.png)
 
 **FURTHER IMPROVEMENT**
